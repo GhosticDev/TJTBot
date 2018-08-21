@@ -1,0 +1,15 @@
+{
+	"name": "TJTBot",
+	"version": "1.0.0",
+	"description": "Discord Bot",
+	"main": "Bot.js",
+  "scripts": {
+  	"start": "node index.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+	"dependencies": {
+		"discord.js": "^11.3.2"
+	}
+}
