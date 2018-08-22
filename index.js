@@ -33,6 +33,7 @@ client.on('guildMemberAdd', async member => {
     client.channels.get('481600467009273857').edit({
       name: `Members: ${member.guild.members.size}`
     }).then(console.log).catch(console.error);
+		client.channels.get('481615911451623433').send(`Welcome <@${member.user.id}> to **${member.guild.name}**!`);
   }
 });
 
